@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PIPVR</title>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tooplate-2167-orbital-style.css">
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']]
+    }
+  };
+</script>
+
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body class="visuals-on">
+
+<div class="aura"></div>
+<div class="stars"></div>
+
+<nav class="nav">
+  <div class="logo"><a href="#" class="logo">PIPVR</a></div>
+  <ul class="nav-links">
+    <li><a href="#intro">مقدمه</a></li>
+    <li><a href="#story">پیشینه</a></li>
+    <li><a href="#start">ویژگی‌ها</a></li>
+  </ul>
+  <button class="menu-toggle" aria-label="باز کردن منو" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu">
+  <a href="#intro">مقدمه</a>
+  <a href="#story">پیشینه</a>
+  <a href="#start">ویژگی‌ها</a>
+</div>
+
+<header class="hero">
+  <div class="stage">
+    <div class="parallax">
+      <div class="ring-tilt">
+        <div class="ring" id="ring">
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">01</div>
+              <div>
+                <div class="p-label">Color Space</div>
+                <div class="p-meta">فضای رنگی</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/LAB.png" alt="Color Space" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">01</span>Color Space</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">02</div>
+              <div>
+                <div class="p-label">Edge Detection</div>
+                <div class="p-meta">تشخیص لبه</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/edge.png" alt="Edge Detection" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">02</span>Edge Detection</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">03</div>
+              <div>
+                <div class="p-label">Visual Stress</div>
+                <div class="p-meta">استرس بینایی</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/visual_stress.jpg" alt="Visual Stress" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">03</span>Visual Stress</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">04</div>
+              <div>
+                <div class="p-label">CCT</div>
+                <div class="p-meta">دمای نور</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/cct.jpg" alt="CCT" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">04</span>CCT</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">05</div>
+              <div>
+                <div class="p-label">Thigmotaxis</div>
+                <div class="p-meta">دیواره طلبی</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/Thigmotaxis.png" alt="Thigmotaxis" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">05</span>Thigmotaxis</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">06</div>
+              <div>
+                <div class="p-label">Fractal Dimension</div>
+                <div class="p-meta">بعد فراکتالی</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/fractal.jpg" alt="Fractal Dimension" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">06</span>Fractal Dimension</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">07</div>
+              <div>
+                <div class="p-label">Openness</div>
+                <div class="p-meta">عمق</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/depth.jpg" alt="Openness" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">07</span>Openness</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">08</div>
+              <div>
+                <div class="p-label">Pareidolia</div>
+                <div class="p-meta">پاریدولیا</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/para.png" alt="Pareidolia" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">08</span>Pareidolia</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">09</div>
+              <div>
+                <div class="p-label">Object Detection</div>
+                <div class="p-meta">تشخیص شی</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/segment.png" alt="Object Detection" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">09</span>Object Detection</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">10</div>
+              <div>
+                <div class="p-label">Visual Clutter</div>
+                <div class="p-meta">شلوغی بصری</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/clutter.jpg" alt="Visual Clutter" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">10</span>Visual Clutter</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="hero-text">
+        <p>Perception, Image Process, Virtual Reality</p>
+        <h1>از تصویر تا ادراک</h1>
+      </div>
+    </div>
+  </div>
+  <div class="hero-controls">
+    <div class="ctrl">
+      <span class="ctrl-label">نمایش تصویری</span>
+      <button class="switch" id="visualsSwitch" role="switch" aria-checked="true" aria-label="تغییر نمایش تصویری پنل‌ها">
+        <span class="knob"></span>
+      </button>
+    </div>
+    <div class="ctrl">
+      <span class="ctrl-label">بزرگ‌نمایی</span>
+      <button class="switch" id="zoomSwitch" role="switch" aria-checked="false" aria-label="بزرگ‌نمایی ۲۴ درصدی حلقه">
+        <span class="knob"></span>
+      </button>
+    </div>
+    <div class="ctrl">
+      <span class="ctrl-label">فاصله‌گذاری</span>
+      <div class="spacing" role="group" aria-label="فاصله‌گذاری حلقه">
+        <button class="spacing-step" data-space="0" aria-label="فاصله‌گذاری فشرده"><i></i></button>
+        <button class="spacing-step" data-space="1" aria-label="فاصله‌گذاری پیش‌فرض"><i></i></button>
+        <button class="spacing-step is-active" data-space="2" aria-label="فاصله‌گذاری باز"><i></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <a href="#intro" class="btn">گزارش درس ویژه 1</a>
+    <div class="line"></div>
+  </div>
+</header>
+
+<section class="section" id="intro">
+  <div class="intro-layout">
+    
+    <div class="intro-image reveal">
+      <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/intro.png" alt="به دنبال فوتون‌ها تا نورون‌ها" loading="lazy">
+    </div>
+    <div class="section-head reveal">
+      
+      <h3> مقدمه <br>به دنبال فوتون‌ها تا نورون‌ها</h3>
+      <p>نقطه آغاز این پژوهش، شناسایی یک چالش روش‌شناختی در مطالعات حوزه نوروآرکیتکچر است. بخش قابل‌توجهی از پژوهش‌های انجام‌شده در این حوزه، بر بررسی تأثیر یک متغیر مستقل بر پاسخ‌های شناختی، عاطفی یا فیزیولوژیک افراد متمرکز بوده‌اند. این رویکرد، اگرچه امکان بررسی دقیق اثر یک ویژگی مشخص از محیط را فراهم می‌کند، با ماهیت پیچیده و چندبعدی معماری همخوانی کامل ندارد. زیرا محیط معماری حاصل تعامل و درهم‌تنیدگی مجموعه‌ای از ویژگی‌های فضایی، بصری، هندسی و مادی است و تغییر یک متغیر می‌تواند به‌طور هم‌زمان بر سایر ویژگی‌های محیط نیز اثر بگذارد.
+
+ازاین‌رو، تمرکز بر یک متغیر مستقل به‌تنهایی ممکن است نتواند تصویری جامع از نحوه تأثیر محیط معماری بر فرد ارائه دهد. این پژوهش با بهره‌گیری از روش‌های پردازش تصویر، در پی آن است که محدودیت ناشی از بررسی تعداد محدودی از متغیرهای مستقل را کاهش دهد و امکان تحلیل هم‌زمان طیف گسترده‌تری از ویژگی‌های محیطی را فراهم کند. هدف نهایی، دستیابی به درکی جامع‌تر از رابطه میان ویژگی‌های محیط معماری و پاسخ‌های انسانی و حرکت به سوی رویکردی چندمتغیره در مطالعات نوروآرکیتکچر است.
+</p>
+    </div>
+  </div>
+
+  <div class="story-steps" id="story">
+    <h2> پیشینه پژوهش</h2>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2006</span></div>
+      <div class="story-text">
+        <span class="story-date">[Jan Wienold, Jens Christoffersen],<a href="https://doi.org/10.1016/j.enbuild.2006.03.017"> Energy and Buildings </a> </span>
+        <h3>Evaluation methods and development of a new glare prediction model for daylight environments with the use of CCD cameras</h3>
+        <p>این پژوهش را می‌توان یکی از نخستین مطالعاتی دانست که از تصاویر با محدوده زاویه دید انسان برای سنجش و پیش‌بینی ادراک بینایی در حوزه معماری استفاده کرد. این مطالعه با توسعه یک شاخص تصویری به نام  DGP، توانست میزان خیرگی ادراک‌شده توسط انسان را با استفاده از اطلاعات ثبت‌ شده در تصویر پیش‌بینی کند.    </p>
+      </div>
+    </article>
+    <p>
+      شاخص‌های محاسبه خیرگی به طور کلی بر پایه  \(G = \left(\frac{L_e^s \omega^f}{L_b^g f(\psi)}\right)\) تعریف می‌شوند. این فرمول شمال 4 جز اصلی می باشد که در آن Ls میزان روشنایی نقطه خیرگی، ω میزان solid angle نقطه خیرگی، Lb  میزان نور بکگراند و ψ میزان فاصله محل خیرگی و مرکز دید می باشد. این پژوهش پس از انجام آزمایش بر روی 76 نفر در رو  محل متفاوت فرمول زیر را توسعه داد.
+    </p>
+
+    <p>یک متن اینجا قرار دارد</p>
+    <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/wineold.png" loading="lazy">
+
+    <img src="https://github.com/PIPVRproject/PIPVRproject.github.io/blob/main/img/wineold2.png" loading="lazy">
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2012</span></div>
+      <div class="story-text">
+        <span class="story-date">[Siobhan Rockcastle, Marilyne Andersen]</span>
+        <h3>Dynamic Annual Metrics for Contrast in Daylit Architecture</h3>
+        <p>[]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2014</span></div>
+      <div class="story-text">
+        <span class="story-date">[Siobhan Rockcastle, Marilyne Andersen</span>
+        <h3>Measuring the dynamics of contrast & daylight variability in
+architecture: A proof-of-concept methodology</h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با استرس بینایی و پاسخ‌های فیزیولوژیک]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2015</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>دمای نور <span class="story-en">CCT</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با دمای رنگ همبسته نور]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2016</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>دیواره‌طلبی <span class="story-en">Thigmotaxis</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با دیواره‌طلبی و رفتار فضایی]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2017</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>بعد فراکتالی <span class="story-en">Fractal Dimension</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با بعد فراکتالی محیط بصری]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2017</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>عمق <span class="story-en">Openness</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با عمق و گشودگی فضایی]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2017</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>پاریدولیا <span class="story-en">Pareidolia</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با پاریدولیا و ادراک الگو]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2023</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>تشخیص شی <span class="story-en">Object Detection</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با تشخیص شی در تصاویر معماری]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2023</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>شلوغی بصری <span class="story-en">Visual Clutter</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با شلوغی بصری و بار شناختی]</p>
+      </div>
+    </article>
+  
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2025</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>شلوغی بصری <span class="story-en">Visual Clutter</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با شلوغی بصری و بار شناختی]</p>
+      </div>
+    </article>
+
+    <article class="story-step reveal">
+      <div class="story-marker"><span class="story-index">2025</span></div>
+      <div class="story-text">
+        <span class="story-date">[سال انتشار]</span>
+        <h3>شلوغی بصری <span class="story-en">Visual Clutter</span></h3>
+        <p>[خلاصه‌ی یک‌خطی مقاله مرتبط با شلوغی بصری و بار شناختی]</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="cta" id="start">
+  <div class="reveal">
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="logo"><a href="#" class="logo">PIPVR <span>// ادراک</span></a></div>
+  <div class="credit">PIPVR — از تصویر تا ادراک · ساختار پایه از <a href="https://www.tooplate.com" rel="nofollow noopener" target="_blank">Tooplate</a></div>
+</footer>
+
+<script src="tooplate-2167-orbital-script.js"></script>
+
+</body>
+</html>
